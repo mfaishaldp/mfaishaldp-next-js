@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = 'force-dynamic'
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import ProjectsSection from "./components/ProjectsSection";
