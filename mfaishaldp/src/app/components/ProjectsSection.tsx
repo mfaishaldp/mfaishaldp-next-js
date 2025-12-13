@@ -67,23 +67,27 @@ export default function ProjectsSection() {
               ))}
             </div>
             <div className="mt-auto border-slate-200/70" />
-            <a
-              className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[var(--accent-coral)] transition-transform hover:-translate-y-[1px] ml-auto"
-              href="#"
-            >
-              View details
-              <svg
-                aria-hidden
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                className="h-4 w-4"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.6"
+            {p.link && (
+              <a
+                className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[var(--accent-coral)] transition-transform hover:-translate-y-[1px] ml-auto"
+                href={p.link}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <path d="M5 12h12M13 6l6 6-6 6" />
-              </svg>
-            </a>
+                View details
+                <svg
+                  aria-hidden
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="h-4 w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.6"
+                >
+                  <path d="M5 12h12M13 6l6 6-6 6" />
+                </svg>
+              </a>
+            )}
           </article>
         ))}
       </div>

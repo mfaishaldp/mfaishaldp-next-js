@@ -40,43 +40,43 @@
       "title": "FurniCraft",
       "desc": "Furniture e-commerce platform focusing on seamless UX using modern tooling, including validation, auth, and personalized experiences.",
       "tags": ["React", "TypeScript", "Tailwind", "Next.js", "Axios", "MongoDB", "JWT", "Zod", "OpenAI", "Three.js"],
-      "link": ""
+      "link": "https://github.com/FurniCraft-Ecommerce-Project/FurniCraft-repository/tree/development"
     },
     {
       "title": "GoodsDeep",
       "desc": "E-commerce site to browse items, manage wishlist, and deploy production build.",
       "tags": ["TypeScript", "Next.js", "Jose", "JWT", "Tailwind", "React", "MongoDB", "Zod", "SweetAlert2"],
-      "link": ""
+      "link": "https://github.com/mfaishaldp/goods-deep"
     },
     {
       "title": "Youtubez",
       "desc": "Social media app with design and layout similar to YouTube; implemented core functionality and deployment.",
       "tags": ["Apollo", "GraphQL", "Redis", "MongoDB", "JWT", "Apollo Client", "Expo", "React Native"],
-      "link": ""
+      "link": "https://github.com/mfaishaldp/youtubez"
     },
     {
       "title": "TicketGo",
       "desc": "Web app to search and purchase concert tickets in real-time with secure flows and video demo.",
       "tags": ["Vite", "Express", "Socket.io", "React", "React Router", "Context", "Motion", "Axios", "SweetAlert2", "Tailwind", "PostgreSQL", "JWT", "Sequelize", "API Gemini"],
-      "link": ""
+      "link": "https://github.com/orgs/Client-Server-Team/repositories"
     },
     {
       "title": "ClimaWear",
       "desc": "Weather-based outfit recommendation app; predicts destination temperature and provides UI demo.",
       "tags": ["Vite", "Express", "React", "Redux", "Router", "Tailwind", "Chart.js", "Axios", "Google Auth", "JWT", "PostgreSQL", "Sequelize", "Open Meteo", "API Gemini", "Open Cage", "Geocode"],
-      "link": ""
+      "link": "https://github.com/mfaishaldp/IP-HCK82"
     },
     {
       "title": "Travel Kuy",
       "desc": "Travel seat booking app with customer/admin roles, session auth, and reporting.",
       "tags": ["Node.js", "JavaScript", "HTML", "CSS", "Bootstrap", "bcryptjs", "ejs", "express", "express-session", "pdf-node", "PostgreSQL", "Sequelize", "nodemon"],
-      "link": ""
+      "link": "https://github.com/mfaishaldp/TravelKuys"
     },
     {
       "title": "My Bro",
       "desc": "Savings tracker app with achievement targets and local storage persistence.",
       "tags": ["Node.js", "JavaScript", "HTML", "CSS", "Bootstrap", "Local Storage", "DOM"],
-      "link": ""
+      "link": "https://github.com/mfaishaldp/myBro"
     },
     {
       "title": "Finance Business Expenses Settlement and Account Payable (Medco)",
@@ -107,7 +107,7 @@
       "provider": "HackerRank",
       "name": "JavaScript (Basic)",
       "issued": "May 2025",
-      "link": "https://www.hackerrank.com/certificates/210bfa307d1d"
+      "link": "https://www.hackerrank.com/certificates/210fba307d1d"
     },
     {
       "provider": "HackerRank",
@@ -149,12 +149,12 @@
       "provider": "DataCamp",
       "name": "Data Manipulation in SQL",
       "issued": "August 2023",
-      "link": "https://www.datacamp.com/statement-of-accomplishment/course/30,432,377"
+      "link": "https://www.datacamp.com/completed/statement-of-accomplishment/course/d3a04ed161c1640e1c6c4b99c770d3cf08a5d5d7"
     },
     {
       "provider": "DataCamp",
       "name": "Intermediate SQL Queries",
       "issued": "June 2022",
-      "link": "https://www.datacamp.com/statement-of-accomplishment/course/24,422,563"
+      "link": "https://www.datacamp.com/completed/statement-of-accomplishment/course/d5fb6ee9276c38cfcae66ab9a0600cd77c923e3a"
     }  ]
 }
