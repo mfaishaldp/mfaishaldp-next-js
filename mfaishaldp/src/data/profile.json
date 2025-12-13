@@ -1,0 +1,160 @@
+{
+  "experiences": [
+    {
+      "company": "PT Medco Energi Indonesia",
+      "period": "January 2024 – January 2025",
+      "role": "Data Analyst",
+      "desc": "Migrated 20+ dashboards from Spotfire to Power BI, centralized the data warehouse, and implemented SSIS ETL for large-scale migrations. Built Finance/HSE/Operations dashboards serving 7,000+ users and delivered Power BI training to expand internal data capabilities.",
+      "color": "#2f7a72"
+    },
+    {
+      "company": "PT Mitra Integrasi Informatika",
+      "period": "June 2023 – December 2023",
+      "role": "Business Intelligence Developer",
+      "desc": "Developed Power BI dashboards for Danone (Pharma & Finance), reconfigured Row Level Security, and enabled sales teams to monitor performance. Built SSIS ETL for Avrist Assurance and created Tableau dashboards, cutting ETL load time from 80% to 40%.",
+      "color": "#e66a3a"
+    },
+    {
+      "company": "PT Cybertrend Intrabuana",
+      "period": "June 2022 – June 2023",
+      "role": "Business Intelligence Developer",
+      "desc": "Led multiple Power BI dashboards for Antam’s Digital Control Tower; designed scalable data models/marts for finance, exploration, sales, and more, presenting insights to Antam’s Board. Maintained Tableau Server across Ubuntu/Linux/Windows and resolved client issues (BRI Life, Finnet, MoH, Lintasarta, Bank Syariah Indonesia, Admedika).",
+      "color": "#e0af1e"
+    },
+    {
+      "company": "PT Pupuk Indonesia",
+      "period": "November 2021 – June 2022",
+      "role": "Data Scientist Staff",
+      "desc": "Built raw material price prediction using Python (ARIMA & LSTM) achieving ~80% accuracy for procurement cost optimization. Developed dashboards with Power BI and Tableau to help users interpret data easily.",
+      "color": "#2f7a72"
+    }
+  ],
+  "projects": [
+    {
+      "title": "WhatsApp API Call Integration in Omnichannel Platform",
+      "desc": "Integrated WhatsApp API call with core application; implemented front-end interface and backend config to enable users to make calls via WhatsApp.",
+      "tags": ["WhatsApp API", "WebRTC", "React", "TypeScript", "Tailwind", "Next.js", "Express", "PostgreSQL"],
+      "link": ""
+    },
+    {
+      "title": "FurniCraft",
+      "desc": "Furniture e-commerce platform focusing on seamless UX using modern tooling, including validation, auth, and personalized experiences.",
+      "tags": ["React", "TypeScript", "Tailwind", "Next.js", "Axios", "MongoDB", "JWT", "Zod", "OpenAI", "Three.js"],
+      "link": ""
+    },
+    {
+      "title": "GoodsDeep",
+      "desc": "E-commerce site to browse items, manage wishlist, and deploy production build.",
+      "tags": ["TypeScript", "Next.js", "Jose", "JWT", "Tailwind", "React", "MongoDB", "Zod", "SweetAlert2"],
+      "link": ""
+    },
+    {
+      "title": "Youtubez",
+      "desc": "Social media app with design and layout similar to YouTube; implemented core functionality and deployment.",
+      "tags": ["Apollo", "GraphQL", "Redis", "MongoDB", "JWT", "Apollo Client", "Expo", "React Native"],
+      "link": ""
+    },
+    {
+      "title": "TicketGo",
+      "desc": "Web app to search and purchase concert tickets in real-time with secure flows and video demo.",
+      "tags": ["Vite", "Express", "Socket.io", "React", "React Router", "Context", "Motion", "Axios", "SweetAlert2", "Tailwind", "PostgreSQL", "JWT", "Sequelize", "API Gemini"],
+      "link": ""
+    },
+    {
+      "title": "ClimaWear",
+      "desc": "Weather-based outfit recommendation app; predicts destination temperature and provides UI demo.",
+      "tags": ["Vite", "Express", "React", "Redux", "Router", "Tailwind", "Chart.js", "Axios", "Google Auth", "JWT", "PostgreSQL", "Sequelize", "Open Meteo", "API Gemini", "Open Cage", "Geocode"],
+      "link": ""
+    },
+    {
+      "title": "Travel Kuy",
+      "desc": "Travel seat booking app with customer/admin roles, session auth, and reporting.",
+      "tags": ["Node.js", "JavaScript", "HTML", "CSS", "Bootstrap", "bcryptjs", "ejs", "express", "express-session", "pdf-node", "PostgreSQL", "Sequelize", "nodemon"],
+      "link": ""
+    },
+    {
+      "title": "My Bro",
+      "desc": "Savings tracker app with achievement targets and local storage persistence.",
+      "tags": ["Node.js", "JavaScript", "HTML", "CSS", "Bootstrap", "Local Storage", "DOM"],
+      "link": ""
+    },
+    {
+      "title": "Finance Business Expenses Settlement and Account Payable (Medco)",
+      "desc": "BI dashboard to monitor business expenses settlement and account payable.",
+      "tags": ["SSIS", "Data Warehouse", "Power BI"],
+      "link": ""
+    },
+    {
+      "title": "Competency Dashboard Profile Technical Assurance (Medco)",
+      "desc": "Dashboard providing insights on competency training achievements and gaps.",
+      "tags": ["SSIS", "Data Warehouse", "Power BI"],
+      "link": ""
+    },
+    {
+      "title": "Migration Spotfire to Power BI & Data Warehouse Implementation",
+      "desc": "Successfully migrated dashboards across Finance, HSE, Operations, and Supply Chain; implemented centralized DW.",
+      "tags": ["SSIS", "Data Warehouse", "Power BI"],
+      "link": ""
+    },
+    {
+      "title": "Digital Control Tower at PT Aneka Tambang",
+      "desc": "Executive dashboards providing actionable insights for Antam’s Board of Directors.",
+      "tags": ["Data Warehouse", "Power BI"],
+      "link": ""
+    }  ],
+  "certifications": [
+    {
+      "provider": "HackerRank",
+      "name": "JavaScript (Basic)",
+      "issued": "May 2025",
+      "link": "https://www.hackerrank.com/certificates/210bfa307d1d"
+    },
+    {
+      "provider": "HackerRank",
+      "name": "React (Basic)",
+      "issued": "May 2025",
+      "link": "https://www.hackerrank.com/certificates/a55838e98af5"
+    },
+    {
+      "provider": "HackerRank",
+      "name": "CSS (Basic)",
+      "issued": "May 2025",
+      "link": "https://www.hackerrank.com/certificates/9f6b40cbd791"
+    },
+    {
+      "provider": "HackerRank",
+      "name": "Problem Solving (Basic)",
+      "issued": "May 2025",
+      "link": "https://www.hackerrank.com/certificates/9bac8b4eb693"
+    },
+    {
+      "provider": "HackerRank",
+      "name": "SQL (Intermediate)",
+      "issued": "August 2023",
+      "link": "https://www.hackerrank.com/certificates/91A80A5B7EA8"
+    },
+    {
+      "provider": "HackerRank",
+      "name": "SQL (Basic)",
+      "issued": "August 2023",
+      "link": "https://www.hackerrank.com/certificates/26f7359d7e65"
+    },
+    {
+      "provider": "Udemy",
+      "name": "Data Warehouse Developer - SQL Server/ETL/SSIS/SSAS/SSRS/T-SQL",
+      "issued": "September 2023",
+      "link": "https://www.udemy.com/certificate/UC-9674805b-0728-4162-9339-18f50263ef3c/"
+    },
+    {
+      "provider": "DataCamp",
+      "name": "Data Manipulation in SQL",
+      "issued": "August 2023",
+      "link": "https://www.datacamp.com/statement-of-accomplishment/course/30,432,377"
+    },
+    {
+      "provider": "DataCamp",
+      "name": "Intermediate SQL Queries",
+      "issued": "June 2022",
+      "link": "https://www.datacamp.com/statement-of-accomplishment/course/24,422,563"
+    }  ]
+}

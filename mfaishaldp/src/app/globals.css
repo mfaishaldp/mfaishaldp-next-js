@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6f1e8;
+  --foreground: #1f2933;
+  --accent-teal: #2f7a72;
+  --accent-coral: #e66a3a;
+  --soft-ink: #1b2f4b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-playfair);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.01em;
+  scroll-behavior: smooth;
+}
+
+.font-display {
+  font-family: var(--font-playfair), "Times New Roman", serif;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0 }
+  to { transform: translateY(0); opacity: 1 }
+}
+
+@keyframes gentleFloat {
+  0% { transform: translateY(0) }
+  50% { transform: translateY(-4px) }
+  100% { transform: translateY(0) }
+}
+
+@keyframes softPulse {
+  0% { transform: rotate(-2deg) scale(1); filter: brightness(1); }
+  50% { transform: rotate(-2deg) scale(1.02); filter: brightness(1.03); }
+  100% { transform: rotate(-2deg) scale(1); filter: brightness(1); }
+}
+
+.animate-fadeIn { animation: fadeIn 600ms ease forwards }
+.animate-slideUp { animation: slideUp 700ms ease forwards }
+.animate-slideUp-delayed { animation: slideUp 900ms ease 120ms forwards }
+.animate-gentleFloat { animation: gentleFloat 5s ease-in-out infinite }
+.animate-softPulse { animation: softPulse 8s ease-in-out infinite }
+
+/* Scroll reveal helpers */
+.reveal { opacity: 0; transform: translateY(16px); }
+.reveal-visible { opacity: 1; transform: translateY(0); transition: opacity 600ms ease, transform 600ms ease; }
