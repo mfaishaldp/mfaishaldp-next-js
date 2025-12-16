@@ -34,73 +34,85 @@
       "title": "WhatsApp API Call Integration in Omnichannel Platform",
       "desc": "Integrated WhatsApp API call with core application; implemented front-end interface and backend config to enable users to make calls via WhatsApp.",
       "tags": ["WhatsApp API", "WebRTC", "React", "TypeScript", "Tailwind", "Next.js", "Express", "PostgreSQL"],
-      "link": ""
+      "link": "",
+      "video" : ""
     },
     {
       "title": "FurniCraft",
       "desc": "Furniture e-commerce platform focusing on seamless UX using modern tooling, including validation, auth, and personalized experiences.",
-      "tags": ["React", "TypeScript", "Tailwind", "Next.js", "Axios", "MongoDB", "JWT", "Zod", "OpenAI", "Three.js"],
-      "link": "https://github.com/FurniCraft-Ecommerce-Project/FurniCraft-repository/tree/development"
+      "tags": ["React", "TypeScript", "Tailwind", "Next.js", "Axios", "MongoDB", "JWT", "Zod", "OpenAI", "Three.js", "Midtrans"],
+      "link": "https://github.com/FurniCraft-Ecommerce-Project/FurniCraft-repository/tree/development",
+      "video" : "https://youtu.be/rAwYwY0BEDM"
     },
     {
       "title": "GoodsDeep",
       "desc": "E-commerce site to browse items, manage wishlist, and deploy production build.",
       "tags": ["TypeScript", "Next.js", "Jose", "JWT", "Tailwind", "React", "MongoDB", "Zod", "SweetAlert2"],
-      "link": "https://github.com/mfaishaldp/goods-deep"
+      "link": "https://github.com/mfaishaldp/goods-deep",
+      "video" : ""
     },
     {
       "title": "Youtubez",
       "desc": "Social media app with design and layout similar to YouTube; implemented core functionality and deployment.",
       "tags": ["Apollo", "GraphQL", "Redis", "MongoDB", "JWT", "Apollo Client", "Expo", "React Native"],
-      "link": "https://github.com/mfaishaldp/youtubez"
+      "link": "https://github.com/mfaishaldp/youtubez",
+      "video" : ""
     },
     {
       "title": "TicketGo",
       "desc": "Web app to search and purchase concert tickets in real-time with secure flows and video demo.",
       "tags": ["Vite", "Express", "Socket.io", "React", "React Router", "Context", "Motion", "Axios", "SweetAlert2", "Tailwind", "PostgreSQL", "JWT", "Sequelize", "API Gemini"],
-      "link": "https://github.com/orgs/Client-Server-Team/repositories"
+      "link": "https://github.com/orgs/Client-Server-Team/repositories",
+      "video" : "https://youtu.be/Rrcsb5YdoH8"
     },
     {
       "title": "ClimaWear",
       "desc": "Weather-based outfit recommendation app; predicts destination temperature and provides UI demo.",
       "tags": ["Vite", "Express", "React", "Redux", "Router", "Tailwind", "Chart.js", "Axios", "Google Auth", "JWT", "PostgreSQL", "Sequelize", "Open Meteo", "API Gemini", "Open Cage", "Geocode"],
-      "link": "https://github.com/mfaishaldp/IP-HCK82"
+      "link": "https://github.com/mfaishaldp/IP-HCK82",
+      "video" : "https://youtu.be/KoK0ozDcjuU"
     },
     {
       "title": "Travel Kuy",
       "desc": "Travel seat booking app with customer/admin roles, session auth, and reporting.",
       "tags": ["Node.js", "JavaScript", "HTML", "CSS", "Bootstrap", "bcryptjs", "ejs", "express", "express-session", "pdf-node", "PostgreSQL", "Sequelize", "nodemon"],
-      "link": "https://github.com/mfaishaldp/TravelKuys"
+      "link": "https://github.com/mfaishaldp/TravelKuys",
+      "video" : ""
     },
     {
       "title": "My Bro",
       "desc": "Savings tracker app with achievement targets and local storage persistence.",
       "tags": ["Node.js", "JavaScript", "HTML", "CSS", "Bootstrap", "Local Storage", "DOM"],
-      "link": "https://github.com/mfaishaldp/myBro"
+      "link": "https://github.com/mfaishaldp/myBro",
+      "video" : ""
     },
     {
       "title": "Finance Business Expenses Settlement and Account Payable (Medco)",
       "desc": "BI dashboard to monitor business expenses settlement and account payable.",
       "tags": ["SSIS", "Data Warehouse", "Power BI"],
-      "link": ""
+      "link": "",
+      "video" : ""
     },
     {
       "title": "Competency Dashboard Profile Technical Assurance (Medco)",
       "desc": "Dashboard providing insights on competency training achievements and gaps.",
       "tags": ["SSIS", "Data Warehouse", "Power BI"],
-      "link": ""
+      "link": "",
+      "video" : ""
     },
     {
       "title": "Migration Spotfire to Power BI & Data Warehouse Implementation",
       "desc": "Successfully migrated dashboards across Finance, HSE, Operations, and Supply Chain; implemented centralized DW.",
       "tags": ["SSIS", "Data Warehouse", "Power BI"],
-      "link": ""
+      "link": "",
+      "video" : ""
     },
     {
       "title": "Digital Control Tower at PT Aneka Tambang",
       "desc": "Executive dashboards providing actionable insights for Antam’s Board of Directors.",
       "tags": ["Data Warehouse", "Power BI"],
-      "link": ""
+      "link": "",
+      "video" : ""
     }  ],
   "certifications": [
     {

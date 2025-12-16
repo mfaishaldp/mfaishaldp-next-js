@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Faishal | Portfolio",
+  title: "mfaishaldp | Portfolio",
 };
 
 export default function RootLayout({
