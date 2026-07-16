@@ -1,6 +1,13 @@
 {
   "experiences": [
     {
+      "company": "PT Hacktivate Teknologi Indonesia",
+      "period": "February 2026 – July 2026",
+      "role": "Curriculum Developer and Instructor Full-Stack JavaScript",
+      "desc": "Mentored a cohort of 30 students in Full Stack JavaScript development, teaching Node.js, Express.js, PostgreSQL, React, and RESTful APIs. Conducted code reviews, technical mentoring, and project evaluations while guiding students to build end-to-end full-stack applications using industry best practices.",
+      "color": "#2f7a72"
+    },
+    {
       "company": "PT Medco Energi Indonesia",
       "period": "January 2024 – January 2025",
       "role": "Data Analyst",
@@ -33,87 +40,182 @@
     {
       "title": "WhatsApp API Call Integration in Omnichannel Platform",
       "desc": "Integrated WhatsApp API call with core application; implemented front-end interface and backend config to enable users to make calls via WhatsApp.",
-      "tags": ["WhatsApp API", "WebRTC", "React", "TypeScript", "Tailwind", "Next.js", "Express", "PostgreSQL"],
+      "tags": [
+        "WhatsApp API",
+        "WebRTC",
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Next.js",
+        "Express",
+        "PostgreSQL"
+      ],
       "link": "",
-      "video" : ""
+      "video": ""
     },
     {
       "title": "FurniCraft",
       "desc": "Furniture e-commerce platform focusing on seamless UX using modern tooling, including validation, auth, and personalized experiences.",
-      "tags": ["React", "TypeScript", "Tailwind", "Next.js", "Axios", "MongoDB", "JWT", "Zod", "OpenAI", "Three.js", "Midtrans"],
+      "tags": [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Next.js",
+        "Axios",
+        "MongoDB",
+        "JWT",
+        "Zod",
+        "OpenAI",
+        "Three.js",
+        "Midtrans"
+      ],
       "link": "https://github.com/FurniCraft-Ecommerce-Project/FurniCraft-repository/tree/development",
-      "video" : "https://youtu.be/rAwYwY0BEDM"
+      "video": "https://youtu.be/rAwYwY0BEDM"
     },
     {
       "title": "GoodsDeep",
       "desc": "E-commerce site to browse items, manage wishlist, and deploy production build.",
-      "tags": ["TypeScript", "Next.js", "Jose", "JWT", "Tailwind", "React", "MongoDB", "Zod", "SweetAlert2"],
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "Jose",
+        "JWT",
+        "Tailwind",
+        "React",
+        "MongoDB",
+        "Zod",
+        "SweetAlert2"
+      ],
       "link": "https://github.com/mfaishaldp/goods-deep",
-      "video" : ""
+      "video": ""
     },
     {
       "title": "Youtubez",
       "desc": "Social media app with design and layout similar to YouTube; implemented core functionality and deployment.",
-      "tags": ["Apollo", "GraphQL", "Redis", "MongoDB", "JWT", "Apollo Client", "Expo", "React Native"],
+      "tags": [
+        "Apollo",
+        "GraphQL",
+        "Redis",
+        "MongoDB",
+        "JWT",
+        "Apollo Client",
+        "Expo",
+        "React Native"
+      ],
       "link": "https://github.com/mfaishaldp/youtubez",
-      "video" : ""
+      "video": ""
     },
     {
       "title": "TicketGo",
       "desc": "Web app to search and purchase concert tickets in real-time with secure flows and video demo.",
-      "tags": ["Vite", "Express", "Socket.io", "React", "React Router", "Context", "Motion", "Axios", "SweetAlert2", "Tailwind", "PostgreSQL", "JWT", "Sequelize", "API Gemini"],
+      "tags": [
+        "Vite",
+        "Express",
+        "Socket.io",
+        "React",
+        "React Router",
+        "Context",
+        "Motion",
+        "Axios",
+        "SweetAlert2",
+        "Tailwind",
+        "PostgreSQL",
+        "JWT",
+        "Sequelize",
+        "API Gemini"
+      ],
       "link": "https://github.com/orgs/Client-Server-Team/repositories",
-      "video" : "https://youtu.be/Rrcsb5YdoH8"
+      "video": "https://youtu.be/Rrcsb5YdoH8"
     },
     {
       "title": "ClimaWear",
       "desc": "Weather-based outfit recommendation app; predicts destination temperature and provides UI demo.",
-      "tags": ["Vite", "Express", "React", "Redux", "Router", "Tailwind", "Chart.js", "Axios", "Google Auth", "JWT", "PostgreSQL", "Sequelize", "Open Meteo", "API Gemini", "Open Cage", "Geocode"],
+      "tags": [
+        "Vite",
+        "Express",
+        "React",
+        "Redux",
+        "Router",
+        "Tailwind",
+        "Chart.js",
+        "Axios",
+        "Google Auth",
+        "JWT",
+        "PostgreSQL",
+        "Sequelize",
+        "Open Meteo",
+        "API Gemini",
+        "Open Cage",
+        "Geocode"
+      ],
       "link": "https://github.com/mfaishaldp/IP-HCK82",
-      "video" : "https://youtu.be/KoK0ozDcjuU"
+      "video": "https://youtu.be/KoK0ozDcjuU"
     },
     {
       "title": "Travel Kuy",
       "desc": "Travel seat booking app with customer/admin roles, session auth, and reporting.",
-      "tags": ["Node.js", "JavaScript", "HTML", "CSS", "Bootstrap", "bcryptjs", "ejs", "express", "express-session", "pdf-node", "PostgreSQL", "Sequelize", "nodemon"],
+      "tags": [
+        "Node.js",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "bcryptjs",
+        "ejs",
+        "express",
+        "express-session",
+        "pdf-node",
+        "PostgreSQL",
+        "Sequelize",
+        "nodemon"
+      ],
       "link": "https://github.com/mfaishaldp/TravelKuys",
-      "video" : ""
+      "video": ""
     },
     {
       "title": "My Bro",
       "desc": "Savings tracker app with achievement targets and local storage persistence.",
-      "tags": ["Node.js", "JavaScript", "HTML", "CSS", "Bootstrap", "Local Storage", "DOM"],
+      "tags": [
+        "Node.js",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Local Storage",
+        "DOM"
+      ],
       "link": "https://github.com/mfaishaldp/myBro",
-      "video" : ""
+      "video": ""
     },
     {
       "title": "Finance Business Expenses Settlement and Account Payable (Medco)",
       "desc": "BI dashboard to monitor business expenses settlement and account payable.",
       "tags": ["SSIS", "Data Warehouse", "Power BI"],
       "link": "",
-      "video" : ""
+      "video": ""
     },
     {
       "title": "Competency Dashboard Profile Technical Assurance (Medco)",
       "desc": "Dashboard providing insights on competency training achievements and gaps.",
       "tags": ["SSIS", "Data Warehouse", "Power BI"],
       "link": "",
-      "video" : ""
+      "video": ""
     },
     {
       "title": "Migration Spotfire to Power BI & Data Warehouse Implementation",
       "desc": "Successfully migrated dashboards across Finance, HSE, Operations, and Supply Chain; implemented centralized DW.",
       "tags": ["SSIS", "Data Warehouse", "Power BI"],
       "link": "",
-      "video" : ""
+      "video": ""
     },
     {
       "title": "Digital Control Tower at PT Aneka Tambang",
       "desc": "Executive dashboards providing actionable insights for Antam’s Board of Directors.",
       "tags": ["Data Warehouse", "Power BI"],
       "link": "",
-      "video" : ""
-    }  ],
+      "video": ""
+    }
+  ],
   "certifications": [
     {
       "provider": "HackerRank",
@@ -168,5 +270,6 @@
       "name": "Intermediate SQL Queries",
       "issued": "June 2022",
       "link": "https://www.datacamp.com/completed/statement-of-accomplishment/course/d5fb6ee9276c38cfcae66ab9a0600cd77c923e3a"
-    }  ]
+    }
+  ]
 }
