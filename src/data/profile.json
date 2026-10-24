@@ -218,6 +218,12 @@
   ],
   "certifications": [
     {
+      "provider": "Hacktiv8 Bootcamp",
+      "name": "Fullstack Javascript Immersive",
+      "issued": "June 2025",
+      "link": "https://drive.google.com/file/d/1kBAOXjO-l_ikXTYjLKdetQ47rpuIPz7K/view?usp=sharing"
+    },
+    {
       "provider": "HackerRank",
       "name": "JavaScript (Basic)",
       "issued": "May 2025",
