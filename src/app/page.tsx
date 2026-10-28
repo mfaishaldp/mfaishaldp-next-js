@@ -36,7 +36,7 @@ export default function Home() {
       ref={containerRef}
       className="min-h-screen bg-[var(--background)] text-slate-900"
     >
-      <nav className="sticky top-0 z-50 bg-[var(--background)]/95 backdrop-blur-sm border-b border-slate-200/70 animate-fadeIn">
+      <nav className="sticky top-0 z-50 border-b border-slate-200/70 bg-[var(--background)]/95 animate-fadeIn">
         <div className="mx-auto max-w-6xl px-6 py-6 flex flex-wrap items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             {/* <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-lg font-semibold text-[var(--accent-teal)] shadow-sm ring-1 ring-slate-200/80 transition-transform hover:-translate-y-[1px]">
@@ -189,7 +189,7 @@ export default function Home() {
                   priority
                   className="relative z-10 object-cover object-top drop-shadow-[0_28px_35px_rgba(0,0,0,0.22)] saturate-[0.65] sepia-[0.35] hue-rotate-[-10deg] contrast-[1.06] brightness-[0.97] transition-transform duration-300 ease-out group-hover:scale-[1.015]"
                 />
-                <div className="pointer-events-none absolute inset-0 z-20 bg-gradient-to-b from-[var(--background)]/12 via-[var(--accent-coral)]/18 to-[var(--background)]/10 mix-blend-screen animate-gentleFloat" />
+                <div className="pointer-events-none absolute inset-0 z-20 bg-gradient-to-b from-[var(--background)]/15 via-[var(--accent-coral)]/15 to-[var(--background)]/20 opacity-80 animate-gentleFloat" />
               </div>
             </div>
           </div>
@@ -201,7 +201,7 @@ export default function Home() {
               that keep decisions fast and reliable.
             </p>
 
-            <div className="flex items-center gap-4 rounded-full border border-dashed border-slate-400 bg-white/70 px-6 py-4 shadow-sm backdrop-blur">
+            <div className="flex items-center gap-4 rounded-full border border-dashed border-slate-400 bg-white/90 px-6 py-4 shadow-sm">
               <div className="flex h-16 w-16 items-center justify-center rounded-full border border-slate-300 bg-white">
                 <svg
                   aria-hidden
@@ -221,7 +221,7 @@ export default function Home() {
                 Certified Hacktiv8 - Full-Stack JavaScript
               </div>
             </div>
-            <div className="flex items-center gap-4 rounded-full border border-dashed border-slate-400 bg-white/70 px-6 py-4 shadow-sm backdrop-blur">
+            <div className="flex items-center gap-4 rounded-full border border-dashed border-slate-400 bg-white/90 px-6 py-4 shadow-sm">
               <div className="flex h-16 w-16 items-center justify-center rounded-full border border-slate-300 bg-white">
                 <svg
                   aria-hidden

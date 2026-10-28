@@ -51,7 +51,8 @@
         "PostgreSQL"
       ],
       "link": "",
-      "video": ""
+      "video": "",
+      "image": ["/cek-1.png", "/cek-2.png", "/cek-3.png", "/cek-4.png"]
     },
     {
       "title": "FurniCraft",
@@ -70,40 +71,28 @@
         "Midtrans"
       ],
       "link": "https://github.com/FurniCraft-Ecommerce-Project/FurniCraft-repository/tree/development",
-      "video": "https://youtu.be/rAwYwY0BEDM"
+      "video": "https://youtu.be/rAwYwY0BEDM",
+      "image": [
+        "/furni-1.png",
+        "/furni-2.png",
+        "/furni-3.png",
+        "/furni-4.png",
+        "/furni-5.png"
+      ]
     },
     {
-      "title": "GoodsDeep",
-      "desc": "E-commerce site to browse items, manage wishlist, and deploy production build.",
-      "tags": [
-        "TypeScript",
-        "Next.js",
-        "Jose",
-        "JWT",
-        "Tailwind",
-        "React",
-        "MongoDB",
-        "Zod",
-        "SweetAlert2"
-      ],
-      "link": "https://github.com/mfaishaldp/goods-deep",
-      "video": ""
-    },
-    {
-      "title": "Youtubez",
-      "desc": "Social media app with design and layout similar to YouTube; implemented core functionality and deployment.",
-      "tags": [
-        "Apollo",
-        "GraphQL",
-        "Redis",
-        "MongoDB",
-        "JWT",
-        "Apollo Client",
-        "Expo",
-        "React Native"
-      ],
-      "link": "https://github.com/mfaishaldp/youtubez",
-      "video": ""
+      "title": "Digital Control Tower at PT Aneka Tambang",
+      "desc": "Executive dashboards providing actionable insights for Antam’s Board of Directors.",
+      "tags": ["Data Warehouse", "Power BI"],
+      "link": "",
+      "video": "",
+      "image": [
+        "/cbt-1.png",
+        "/cbt-2.png",
+        "/cbt-3.png",
+        "/cbt-4.png",
+        "/cbt-5.png"
+      ]
     },
     {
       "title": "TicketGo",
@@ -125,7 +114,8 @@
         "API Gemini"
       ],
       "link": "https://github.com/orgs/Client-Server-Team/repositories",
-      "video": "https://youtu.be/Rrcsb5YdoH8"
+      "video": "https://youtu.be/Rrcsb5YdoH8",
+      "image": ["/ticketgo-1.png", "/ticketgo-2.png"]
     },
     {
       "title": "ClimaWear",
@@ -149,7 +139,67 @@
         "Geocode"
       ],
       "link": "https://github.com/mfaishaldp/IP-HCK82",
-      "video": "https://youtu.be/KoK0ozDcjuU"
+      "video": "https://youtu.be/KoK0ozDcjuU",
+      "image": ["/clima-1.png", "/clima-2.png", "/clima-3.png"]
+    },
+    {
+      "title": "Finance Business Expenses Settlement and Account Payable (Medco)",
+      "desc": "BI dashboard to monitor business expenses settlement and account payable.",
+      "tags": ["SSIS", "Data Warehouse", "Power BI"],
+      "link": "",
+      "video": "",
+      "image": []
+    },
+    {
+      "title": "Competency Dashboard Profile Technical Assurance (Medco)",
+      "desc": "Dashboard providing insights on competency training achievements and gaps.",
+      "tags": ["SSIS", "Data Warehouse", "Power BI"],
+      "link": "",
+      "video": "",
+      "image": []
+    },
+    {
+      "title": "Migration Spotfire to Power BI & Data Warehouse Implementation",
+      "desc": "Successfully migrated dashboards across Finance, HSE, Operations, and Supply Chain; implemented centralized DW.",
+      "tags": ["SSIS", "Data Warehouse", "Power BI"],
+      "link": "",
+      "video": "",
+      "image": []
+    },
+    {
+      "title": "GoodsDeep",
+      "desc": "E-commerce site to browse items, manage wishlist, and deploy production build.",
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "Jose",
+        "JWT",
+        "Tailwind",
+        "React",
+        "MongoDB",
+        "Zod",
+        "SweetAlert2"
+      ],
+      "link": "https://github.com/mfaishaldp/goods-deep",
+      "video": "",
+      "image": []
+    },
+    {
+      "title": "Youtubez",
+      "desc": "Social media app with design and layout similar to YouTube; implemented core functionality and deployment.",
+      "tags": [
+        "Apollo",
+        "GraphQL",
+        "Redis",
+        "MongoDB",
+        "JWT",
+        "Apollo Client",
+        "Expo",
+        "React Native"
+      ],
+      "link": "https://github.com/mfaishaldp/youtubez",
+      "video": "",
+      "image": []
     },
     {
       "title": "Travel Kuy",
@@ -170,7 +220,8 @@
         "nodemon"
       ],
       "link": "https://github.com/mfaishaldp/TravelKuys",
-      "video": ""
+      "video": "",
+      "image": []
     },
     {
       "title": "My Bro",
@@ -185,35 +236,8 @@
         "DOM"
       ],
       "link": "https://github.com/mfaishaldp/myBro",
-      "video": ""
-    },
-    {
-      "title": "Finance Business Expenses Settlement and Account Payable (Medco)",
-      "desc": "BI dashboard to monitor business expenses settlement and account payable.",
-      "tags": ["SSIS", "Data Warehouse", "Power BI"],
-      "link": "",
-      "video": ""
-    },
-    {
-      "title": "Competency Dashboard Profile Technical Assurance (Medco)",
-      "desc": "Dashboard providing insights on competency training achievements and gaps.",
-      "tags": ["SSIS", "Data Warehouse", "Power BI"],
-      "link": "",
-      "video": ""
-    },
-    {
-      "title": "Migration Spotfire to Power BI & Data Warehouse Implementation",
-      "desc": "Successfully migrated dashboards across Finance, HSE, Operations, and Supply Chain; implemented centralized DW.",
-      "tags": ["SSIS", "Data Warehouse", "Power BI"],
-      "link": "",
-      "video": ""
-    },
-    {
-      "title": "Digital Control Tower at PT Aneka Tambang",
-      "desc": "Executive dashboards providing actionable insights for Antam’s Board of Directors.",
-      "tags": ["Data Warehouse", "Power BI"],
-      "link": "",
-      "video": ""
+      "video": "",
+      "image": []
     }
   ],
   "certifications": [

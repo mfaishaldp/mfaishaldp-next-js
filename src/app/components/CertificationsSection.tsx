@@ -14,7 +14,11 @@ export default function CertificationsSection() {
   if (!certs.length) return null;
 
   return (
-    <section id="certifications" className="mt-24 border-t border-slate-200/70 pt-12">
+    <section
+      id="certifications"
+      className="mt-24 border-t border-slate-200/70 pt-12"
+      style={{ contentVisibility: "auto", containIntrinsicSize: "1000px 500px" }}
+    >
       <header className="mb-8">
         <h2 className="font-display text-3xl font-bold text-[var(--soft-ink)] animate-slideUp">Certifications</h2>
         <p className="mt-2 max-w-2xl text-slate-700">
@@ -26,7 +30,7 @@ export default function CertificationsSection() {
         {certs.map((c) => (
           <li
             key={`${c.provider}-${c.name}-${c.issued}`}
-            className="reveal rounded-xl border border-slate-200 bg-white/80 p-4 shadow-sm backdrop-blur"
+            className="reveal rounded-xl border border-slate-200 bg-white/90 p-4 shadow-sm"
           >
             <div className="flex items-start justify-between gap-4">
               <div>

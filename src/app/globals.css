@@ -15,12 +15,15 @@
   --font-display: var(--font-playfair);
 }
 
+html {
+  scroll-behavior: auto;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-manrope), system-ui, -apple-system, sans-serif;
   letter-spacing: -0.01em;
-  scroll-behavior: smooth;
 }
 
 .font-display {
@@ -39,15 +42,13 @@ body {
 }
 
 @keyframes gentleFloat {
-  0% { transform: translateY(0) }
-  50% { transform: translateY(-4px) }
-  100% { transform: translateY(0) }
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -4px, 0); }
 }
 
 @keyframes softPulse {
-  0% { transform: rotate(-2deg) scale(1); filter: brightness(1); }
-  50% { transform: rotate(-2deg) scale(1.02); filter: brightness(1.03); }
-  100% { transform: rotate(-2deg) scale(1); filter: brightness(1); }
+  0%, 100% { transform: rotate(-2deg) scale(1); }
+  50% { transform: rotate(-2deg) scale(1.02); }
 }
 
 .animate-fadeIn { animation: fadeIn 600ms ease forwards }
@@ -57,5 +58,34 @@ body {
 .animate-softPulse { animation: softPulse 8s ease-in-out infinite }
 
 /* Scroll reveal helpers */
-.reveal { opacity: 0; transform: translateY(16px); }
-.reveal-visible { opacity: 1; transform: translateY(0); transition: opacity 600ms ease, transform 600ms ease; }
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 16px, 0);
+  will-change: opacity, transform;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal,
+  .reveal-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
